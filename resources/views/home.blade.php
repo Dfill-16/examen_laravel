@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Torneos Sena</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <title>Torneos Sena</title>
 </head>
 <body class="bg-white">
     <header class="h-12 border-b-2 border-gray-200 bg-green-500 flex items-center justify-between px-4 py-2"> 
@@ -30,6 +30,6 @@
         <h4 class="text-sm font-bold text-white relative bottom-1 right-1">2022 © Workers Academy</h4>
     </footer>
 
-    <script src="{{ mix('js/app.js') }}"></script>
+    
 </body>
 </html>
